@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19574" systemVersion="21D49" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Note" representedClassName="Note" syncable="YES">
+        <attribute name="dateAdded" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="noteText" optional="YES" attributeType="String"/>
+        <attribute name="priorityColor" optional="YES" attributeType="Transformable" valueTransformerName="ColorTransformer" customClassName="UIColor"/>
+    </entity>
+    <elements>
+        <element name="Note" positionX="-54" positionY="-9" width="128" height="74"/>
+    </elements>
+</model>
